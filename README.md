@@ -4,8 +4,7 @@
 This project implements a **full-stack solution** for a developer task. 
 The task required creating a **server-side API** that receives a string via a POST request, converts it into an array of characters, sorts them alphabetically, 
 and returns the sorted array in JSON format:
-```json
-{ "word": ["a","e","e","l","m","p","x"] }
+**{ "word": ["a","e","e","l","m","p","x"] }**
 
 Additionally, the bonus task was completed by creating an interactive frontend that allows testing the API with:
 - Email address
