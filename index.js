@@ -1,6 +1,5 @@
 const express = require("express");
 const cors = require("cors");
-
 const app = express();
 
 //enable cors for all origins
@@ -27,9 +26,7 @@ app.post("/sort-word", (req,res)=>{
         .sort((a,b)=> a.localeCompare(b));
 
     //Response
-        res.json({
-     word: sortedChar
-    });
+        res.json({word: sortedChar});
 });
 
 //Start server
