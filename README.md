@@ -12,11 +12,11 @@ Additionally, the bonus task was completed by creating an interactive frontend t
 - String to sort
 
 **Features**
-**Backend API** – POST endpoint /sort-word that validates input, sorts characters, and returns JSON.
-**Interactive Frontend** – Form to input Email, API URL, and string, displaying JSON response dynamically.
-**Exact Task Compliance** – Output matches { "word": [...] } format requested by recruiters.
-**Error Handling** – Handles invalid input gracefully with clear error messages.
-**Deployment-Ready** – Backend on Render, frontend on GitHub Pages for public access and testing.
+- **Backend API** – POST endpoint /sort-word that validates input, sorts characters, and returns JSON.
+- **Interactive Frontend** – Form to input Email, API URL, and string, displaying JSON response dynamically.
+- **Exact Task Compliance** – Output matches { "word": [...] } format requested by recruiters.
+- **Error Handling** – Handles invalid input gracefully with clear error messages.
+- **Deployment-Ready** – Backend on Render, frontend on GitHub Pages for public access and testing.
 
 **Technologies**
 - Frontend: HTML5, CSS3, JavaScript
