@@ -1,8 +1,14 @@
 const express = require("express");
+const cors = require("cors");
+
 const app = express();
+
+//enable cors for all origins
+app.use(cors());
 
 //Middleware to read JSON
 app.use(express.json());
+
 
 //POST endpoint
 app.post("/sort-word", (req,res)=>{
