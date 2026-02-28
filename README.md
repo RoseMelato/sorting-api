@@ -4,7 +4,7 @@
 This project implements a **full-stack solution** for a developer task. 
 The task required creating a **server-side API** that receives a string via a POST request, converts it into an array of characters, sorts them alphabetically, 
 and returns the sorted array in JSON format:
-**{ "word": ["a","e","e","l","m","p","x"] }**
+- **{ "word": ["a","e","e","l","m","p","x"] }**
 
 Additionally, the bonus task was completed by creating an interactive frontend that allows testing the API with:
 - Email address
@@ -15,8 +15,8 @@ Additionally, the bonus task was completed by creating an interactive frontend t
 **Backend API** – POST endpoint /sort-word that validates input, sorts characters, and returns JSON.
 **Interactive Frontend** – Form to input Email, API URL, and string, displaying JSON response dynamically.
 **Exact Task Compliance** – Output matches { "word": [...] } format requested by recruiters.
-**Error Handling **– Handles invalid input gracefully with clear error messages.
-**Deployment-Ready **– Backend on Render, frontend on GitHub Pages for public access and testing.
+**Error Handling** – Handles invalid input gracefully with clear error messages.
+**Deployment-Ready** – Backend on Render, frontend on GitHub Pages for public access and testing.
 
 **Technologies**
 - Frontend: HTML5, CSS3, JavaScript
@@ -40,5 +40,5 @@ Additionally, the bonus task was completed by creating an interactive frontend t
 This project is intended for developer task submission.
 
 **Contact**
-email: rosemelato25@gmail.com
-Location: Johannesburg, South Africa
+- email: rosemelato25@gmail.com
+- Location: Johannesburg, South Africa
